@@ -137,7 +137,7 @@ $.fn.altSlider = function (userConfig) {
             $(root_el).html('');
             res.forEach(function (el) {
                 let item = $('<a />')
-                    .addClass('media video-cataloge border')
+                    .addClass('media item-carusel border')
                     .attr('href', el.src)
                 ;
                 
@@ -147,7 +147,7 @@ $.fn.altSlider = function (userConfig) {
                 if (el.img_src) {
                 	item.append(
                         $('<img />')
-                                .addClass('align-self-start video-image-cataloge')
+                                .addClass('align-self-center video-image-cataloge')
                                 .attr('src', el.img_src)
                             
                     );
