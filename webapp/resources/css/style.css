@@ -1,3 +1,9 @@
+.main-content {
+	margin: 16px;
+	position: relative;
+	height: 800px;
+}
+
 .video-present {
 	width: 50%;
 	padding: 16px;
@@ -29,8 +35,15 @@
 	margin-left: 16px;
 }
 
-.video-item-hover{
+.video-item-hover {
 	height: 150px;
-    width: 100%;
-    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 16px 10px 0 rgba(0, 0, 0, 0.19);
+	width: 100%;
+	box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2), 0 16px 10px 0
+		rgba(0, 0, 0, 0.19);
 }
+
+.scroller-survey {
+	width: 100%;
+	text-align: center;
+}
+
