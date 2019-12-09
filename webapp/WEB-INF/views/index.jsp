@@ -15,6 +15,7 @@
 <link href="${urlResources}css/style.css" rel="stylesheet">
 <link href="${urlJquery}css/jquery-ui.min.css" rel="stylesheet">
 <link href="${urlResources}css/altSlider.css" rel="stylesheet">
+<link href="${urlBootstrap}css/all.min.css" rel="stylesheet">
 
 <script src="${urlBootstrap}js/jquery-3.4.1.min.js"></script>
 <script src="${urlJquery}js/jquery-ui.min.js"></script>
@@ -22,6 +23,7 @@
 <script src="${urlBootstrap}js/bootstrap.min.js"></script>
 <script src="${urlResources}js/script.js"></script>
 <script src="${urlResources}js/altSlider.js"></script>
+<script src="${urlBootstrap}js/all.min.js"></script>
 
 <head>
 <meta charset="ISO-8859-1">
@@ -34,6 +36,8 @@
 	<jsp:include page="partials/Content.jsp"></jsp:include>
 	
 	<jsp:include page="partials/Scroller.jsp"></jsp:include>
+	
+	<jsp:include page="partials/Footer.jsp"></jsp:include>
 
 </body>
 

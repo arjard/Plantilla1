@@ -24,7 +24,7 @@
 	</div>
 	
 	<div>
-		<h3>Catalogos</h3>
+		<h2 class="tittle-cataloge">Catalogos</h2>
 		<div class="video-list-cataloge">
 			<ul>
 				<li id="item1" class="media video-cataloge border">

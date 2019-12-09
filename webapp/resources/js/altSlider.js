@@ -142,7 +142,7 @@ $.fn.altSlider = function (userConfig) {
                 ;
                 
                 let bodyItem = $('<div />')
-                	.addClass('media-body');
+                	.addClass('media-body media-item');
                 
                 if (el.img_src) {
                 	item.append(
