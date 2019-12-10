@@ -33,9 +33,26 @@
 
 	<jsp:include page="partials/Nav.jsp"></jsp:include>
 	
-	<jsp:include page="partials/Content.jsp"></jsp:include>
+	<jsp:include page="partials/ContentFace.jsp"></jsp:include>
 	
-	<jsp:include page="partials/Scroller.jsp"></jsp:include>
+<%-- 	<jsp:include page="partials/ContentView.jsp"></jsp:include> --%>
+	
+<%-- 	<jsp:include page="partials/Scroller.jsp"></jsp:include> --%>
+	
+	<div class="row-page">
+	
+		<jsp:include page="partials/MenuLeftBar.jsp"></jsp:include>
+			
+		<div style="width: 83%">
+			
+			<jsp:include page="partials/ContentMain.jsp"></jsp:include>
+			
+			<jsp:include page="partials/ContentMain.jsp"></jsp:include>
+			
+			<jsp:include page="partials/ContentMain.jsp"></jsp:include>
+		
+		</div>	
+	</div>
 	
 	<jsp:include page="partials/Footer.jsp"></jsp:include>
 
